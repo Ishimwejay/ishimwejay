@@ -8,9 +8,13 @@
 }
 
 body {
-    background-color: #0d0d0d;
+   /* background-color: #0d0d0d;
     color: white;
-    background-image: url(background-image.png);
+    background-image: url(background-image.png);*/
+    background-image: 
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)),
+    url('a692e86366a1be4cf03bfafb16ca736c.jpg');
+    background-size: cover;
 }
 
 /* Header Styles */
