@@ -18,18 +18,19 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #0e0e0e;
+    height: 60px;
     padding: 10px 20px;
     color: white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    background: #0f0f10;
   }
 
   .logo img {
-    height: 50px;
-    border-radius: 50%;
-    background: white;
-    padding: 5px;
-    
+    margin-top: 50px;
+    background: rgb(182, 13, 7);
+    width: 100px;  /* Adjust this value to your desired width */
+    height: auto;  /* Maintains the original height */
+    border-bottom-left-radius: 15px;
     
   }
 
@@ -78,11 +79,7 @@
     font-weight: bold;
     object-fit: cover;
   }
-  .whattsapp-icon{
-    font-size: small;
-    size: 10px;
-
-  }
+  
 
   /* Optional: Add content to show scrolling 
   .content {
